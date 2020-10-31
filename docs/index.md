@@ -4,9 +4,12 @@ Hi, I am Xiaoxuan. I am a first-year CS PhD student from UC Berkeley. I am fortu
 
 ### Publication
 
-Huanchen Zhang, **Xiaoxuan Liu**, David Anderson, Michael Kaminsky, Kimberly Keeton, Andrew Pavlo. "Order-Preserving Key Compression for In-Memory Search Trees" in SIGMOD, 2020.
+- Huanchen Zhang, **Xiaoxuan Liu**, David Anderson, Michael Kaminsky, Kimberly Keeton, Andrew Pavlo. "Order-Preserving Key Compression for In-Memory Search Trees" in SIGMOD, 2020.
 
 ### Research Interest
 
 I am broadly interested in database and machine learning system research. My previous work looks into data structure application, compression, and indexes in database.
+
+### Blogs
+- [Tensor Layout](./blog/tensor_layout.md)
 
