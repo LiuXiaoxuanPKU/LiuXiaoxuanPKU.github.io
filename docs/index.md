@@ -9,5 +9,6 @@ Hi, I am Xiaoxuan. I am a second-year CS PhD student from UC Berkeley. I am fort
 
 I am broadly interested in database and machine learning system research. My previous work looks into data structure application, compression, and indexes in database.
 
+**I am looking for highly motivated Interns + UGrad + Masters to do research on database or ML sys. Feel free to reach out (email xiaoxuan_liu@berkeley.edu) with your resume and transcript!**
 
 
