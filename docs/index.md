@@ -3,6 +3,7 @@
 Hi, I am Xiaoxuan. I am a second-year CS PhD student from UC Berkeley. I am fortunately advised by Professor [Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/). I got my master from CMU, working with amazing [Andy](http://www.cs.cmu.edu/~pavlo/) and [Huanchen](http://www.cs.cmu.edu/~huanche1/). I did my undergraduate in PKU.
 
 ### Publication and Manuscripts
+- **Think Before You Optimize: an Evaluation of Memory Optimization Strategies for Model Training**, **in progress**
 - **[Leveraging Application Data Constraints to Optimize Database-Backed Web Applications](https://arxiv.org/abs/2205.02954)**, **under submission** \
   **Xiaoxuan Liu**, Shuxian Wang, Mengzhu Sun, Sharon Lee, Sicheng Pan, Joshua Wu, Cong Yan, Junwen Yang, Shan Lu, Alvin Cheung.
 - **[GACT: Activation Compressed Training for Generic Network Architectures](https://arxiv.org/abs/2206.11357)**, **ICML 2022**. ([code](https://github.com/LiuXiaoxuanPKU/GACT-ICML)) \
