@@ -3,7 +3,7 @@
 Hi, I am Xiaoxuan. I am a third-year CS PhD student from UC Berkeley. I am affiliated with [Sky Lab](https://sky.cs.berkeley.edu/people/) (formerly known as RISE/AMP Lab). I am fortunately advised by Professor [Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/). I got my master from CMU, working with amazing [Andy](http://www.cs.cmu.edu/~pavlo/) and [Huanchen](http://www.cs.cmu.edu/~huanche1/). I did my undergraduate in PKU.
 
 ### Publication and Manuscripts
-- **What is the State of Memory Saving for Model Training**, **under submission** \
+- **[What is the State of Memory Saving for Model Training](https://github.com/LiuXiaoxuanPKU/Cost-Model-papers/blob/main/drafts/papaya.pdf)**, **under submission** \
   **Xiaoxuan Liu**, Philip Chu, Jialun Lyu, Zhuohan Li, Xiaoyong Liu, Daniel Kang, Alvin Cheung.
 - **[Leveraging Application Data Constraints to Optimize Database-Backed Web Applications](https://arxiv.org/abs/2205.02954)**, **Under submission** [[code](https://github.com/LiuXiaoxuanPKU/ConstrOpt)] \
   **Xiaoxuan Liu**, Shuxian Wang, Mengzhu Sun, Sicheng Pan, Ge Li, Siddharth Jha, Cong Yan, Junwen Yang, Shan Lu, Alvin Cheung.
