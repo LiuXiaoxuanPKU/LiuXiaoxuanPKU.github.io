@@ -15,3 +15,5 @@ Hi, I am Xiaoxuan. I am a third-year CS PhD student from UC Berkeley. I am affil
 ### Research Interest
 I am broadly interested in database and machine learning system research. My previous work looks into memory optimization for machine learning systems, query optimization, data structure application, compression, and indexes in database.
 
+**I am trying to hire one ungrad/master researcher working on the data pipeline, please contact xiaoxuan_liu@berkeley.edu if you are interested!**
+
