@@ -3,7 +3,7 @@
 Hi, I am Xiaoxuan. I am a third-year CS PhD student from UC Berkeley. I am affiliated with [Sky Lab](https://sky.cs.berkeley.edu/people/) (formerly known as RISE/AMP Lab). I am fortunately advised by Professor [Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/). I got my master from CMU, working with amazing [Andy](http://www.cs.cmu.edu/~pavlo/) and [Huanchen](http://www.cs.cmu.edu/~huanche1/). I did my undergraduate in PKU.
 
 ### Publication and Manuscripts
-- **[What is the State of Memory Saving for Model Training](https://github.com/LiuXiaoxuanPKU/Cost-Model-papers/blob/main/drafts/papaya.pdf)**, **under submission** \
+- **[What is the State of Memory Saving for Model Training](https://github.com/LiuXiaoxuanPKU/Cost-Model-papers/blob/main/drafts/papaya.pdf)**, **draft** \
   **Xiaoxuan Liu**, Philip Chu, Jialun Lyu, Zhuohan Li, Xiaoyong Liu, Daniel Kang, Alvin Cheung.
 - **[Leveraging Application Data Constraints to Optimize Database-Backed Web Applications](https://arxiv.org/abs/2205.02954)**, **Under submission** [[code](https://github.com/LiuXiaoxuanPKU/ConstrOpt)] \
   **Xiaoxuan Liu**, Shuxian Wang, Mengzhu Sun, Sicheng Pan, Ge Li, Siddharth Jha, Cong Yan, Junwen Yang, Shan Lu, Alvin Cheung.
@@ -14,6 +14,3 @@ Hi, I am Xiaoxuan. I am a third-year CS PhD student from UC Berkeley. I am affil
 
 ### Research Interest
 I am broadly interested in database and machine learning system research. My previous work looks into memory optimization for machine learning systems, query optimization, data structure application, compression, and indexes in database.
-
-**I am trying to hire one ungrad/master researcher working on the data pipeline, please contact xiaoxuan_liu@berkeley.edu if you are interested!**
-
