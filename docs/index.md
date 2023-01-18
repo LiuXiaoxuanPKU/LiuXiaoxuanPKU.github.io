@@ -5,7 +5,7 @@ Hi, I am Xiaoxuan. I am a third-year CS PhD student from UC Berkeley. I am affil
 ### Publication and Manuscripts
 - **[What is the State of Memory Saving for Model Training](https://github.com/LiuXiaoxuanPKU/Cost-Model-papers/blob/main/drafts/papaya.pdf)**, **In progress** \
   **Xiaoxuan Liu**, Philip Chu, Jialun Lyu, Zhuohan Li, Xiaoyong Liu, Daniel Kang, Alvin Cheung.
-- **[Leveraging Application Data Constraints to Optimize Database-Backed Web Applications](https://arxiv.org/abs/2205.02954)**, **Under submission** [[code](https://github.com/LiuXiaoxuanPKU/ConstrOpt)] \
+- **[Leveraging Application Data Constraints to Optimize Database-Backed Web Applications](https://arxiv.org/abs/2205.02954)**, **To appear VLDB 2023** [[code](https://github.com/LiuXiaoxuanPKU/ConstrOpt)] \
   **Xiaoxuan Liu**, Shuxian Wang, Mengzhu Sun, Sicheng Pan, Ge Li, Siddharth Jha, Cong Yan, Junwen Yang, Shan Lu, Alvin Cheung.
 - **[GACT: Activation Compressed Training for Generic Network Architectures](https://arxiv.org/abs/2206.11357)**, **ICML 2022**. [[code](https://github.com/LiuXiaoxuanPKU/GACT-ICML)][[slides](https://github.com/LiuXiaoxuanPKU/LiuXiaoxuanPKU.github.io/blob/master/docs/slides/ICML2022.pdf)][[talk](https://slideslive.com/38983883/gact-activation-compressed-training-for-generic-network-architectures)] \
   **Xiaoxuan Liu**, Lianmin Zheng, Dequan Wang, Yukuo Cen, Weize Chen, Xu Han, Jianfei Chen, Zhiyuan Liu, Jie Tang, Joey Gonzalez, Michael Mahoney, Alvin Cheung.
