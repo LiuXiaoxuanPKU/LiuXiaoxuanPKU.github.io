@@ -18,3 +18,6 @@ Hi, I am Lily (Xiaoxuan) Liu. I am a third-year CS PhD student from UC Berkeley.
 
 ### Research Interest
 I am broadly interested in database and machine learning system research. My previous work looks into memory optimization for machine learning systems, query optimization, data structure application, compression, and indexes in database.
+
+### Undergrads I work with (also learn from!)
+- [Sid Jha](https://sidjha1.github.io/)
