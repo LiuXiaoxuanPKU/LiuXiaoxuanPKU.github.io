@@ -21,4 +21,4 @@ I am broadly interested in database and machine learning system research. My pre
 
 ### Undergrads I work with (also learn from!)
 - [Sid Jha](https://sidjha1.github.io/)
-- [Philip C.Y. Zhu (now Master at CMU)])(https://cyzhu.dev/)
+- [Philip C.Y. Zhu](https://cyzhu.dev/) (now Master at CMU)
