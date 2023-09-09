@@ -15,7 +15,7 @@ Hi, I am Lily (Xiaoxuan) Liu. I am a third-year CS PhD student from UC Berkeley.
 ### Others
 - **[An Evaluation of Memory Optimization Methods for Training Neural Networks](https://arxiv.org/abs/2303.14633)**, **arxiv** \
   **Xiaoxuan Liu**, Siddharth Jha, Alvin Cheung.
-- **Towards Auto-Generated Data Systems**, **VLDB 2023** \
+- **[Towards Auto-Generated Data Systems](https://www.vldb.org/pvldb/vol16/p4116-cheung.pdf)**, **VLDB 2023** \
 Alvin Cheung, Maaz Bin Safeer Ahmad, Brandon Haynes, Chanwut Kittivorawong, Shadaj Laddad, **Xiaoxuan Liu**, Chenglong Wang, Cong Yan
 
 
