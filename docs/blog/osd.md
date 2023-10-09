@@ -1,7 +1,7 @@
 
 LLMs (Language Models) are at the forefront of revolutionizing contemporary applications and a growing number of companies are seeking to deploy LLMs. However, a critical consideration during deployment is latency. 
 Current generation systems exhibit high latency, much of which can be attributed to the auto-regressive nature of the generation process. This necessitates generating tokens sequentially, where each pass of the model produces just one token. During each generation, there's a need to transfer the model from HBM (High Bandwidth Memory) to SRAM (Static Random Access Memory) and access the key-value cache of all previously generated tokens. This procedure places a substantial demand on memory bandwidth, subsequently resulting in the suboptimal utilization of the GPU.
-<p align="center"><img src="spec0.png" alt="Example-1" width="600"></p>
+<p align="center"><img src="spec0.png" alt="Example-1" width="700"></p>
 <p align="center">Auto-regressive nature of token generation: one token is generated each time.</p>
 In the following section, we'll introduce speculative decoding, a technique designed to reduce the serving latency.
 
@@ -9,7 +9,7 @@ In the following section, we'll introduce speculative decoding, a technique desi
 Specualtive decoding is first introduced by [this paper](https://arxiv.org/abs/2211.17192). Put simply, speculative decoding recognizes that some tokens are straightforward to generate, while others are more challenging. To address this, we can utilize a streamlined 'draft' model for the easier tokens and a more comprehensive 'target' model for the complex ones.
 Specifically, to ensure that speculative decoding produces identical output to the original generation method, the draft model proposes tokens which are then validated by the target model.
 
-<p align="center"><img src="spec1.png" alt="Example-1" width="480"></p>
+<p align="center"><img src="spec1.png" alt="Example-1" width="700"></p>
 
 As shown in the picture above, the draft model proposes five tokens: `["I", "like", "cooking", "and", "traveling"]`. These are then forwarded to the target model for parallel verification. In this example, the third token, playing, was proposed inaccurately. As a result, only the first three tokens, `["I", "like", "playing"]`, are generated in this step.
 
