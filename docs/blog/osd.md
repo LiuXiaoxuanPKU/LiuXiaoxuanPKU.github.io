@@ -30,6 +30,7 @@ As illustrated in the figures above, for smaller values of $\alpha$, speculative
 
 Based on the observations above, we propose the online speculative decoding (OSD) algorithm:
 <p align="center"><img src="arch.png" alt="Architecture" width="800"></p>
+
 For each prompt, the draft model suggests multiple tokens in a single step. The target model then verifies these tokens, accepting some and rejecting others. If the student proposes incorrect tokens, both the draft and target distributions are stored in a buffer. Once the buffer exceeds a specified threshold, the draft model is updated by calculating the loss between the draft and target distributions using various distance metrics.
 
 ## Experiments
@@ -43,13 +44,16 @@ In this experiment, we pick LLaMA-160M as the draft model and Vicuna-7B as the t
 **Distribution shift**
 In this experiment, we want to know how quickly can OSD adapt to distribution shift. As shown below, OSD's alpha value dips notably at distribution boundaries, especially around 2K, 4K, and 6K records. This is anticipated since the draft model initially struggles when faced with a new distribution. However, the alpha value rebounds quickly as OSD processes more data, highlighting its adaptability to shifting query distributions. 
 <p align="center"><img src="shift.png" alt="Distribution Shift" width="600"></p>
+
 We also compared our results to those from a static setting. To ensure the draft model wasn't just memorizing data, we chose samples distinct from the online evaluation data. These samples correspond to 30%, 50%, 70%, and 100% of each dataset's online evaluation volume, at 0.6K, 1K, 1.4K, and 2K quantities respectively. As depicted, upon an initial shift in query distribution, OSD's performance aligns with or slightly trails the distillation with 30% data. However, it quickly catches up, matching or even surpassing performances seen with 70% to 100% data access. This highlights OSD's ability to rival models fully exposed to the query distribution, even without intimate knowledge of the underlying query dynamics.
+
 
 **Arena dataset**
 <p align="center"><img src="arena_language.png" alt="Architecture" width="300"> <img src="arena_class.png" alt="Architecture" width="300"></p>
- We evaluate OSD on real LMSYS-chat conversations that span 4 months.
+
+We evaluate OSD on real LMSYS-chat conversations that span 4 months.
 First, we categorize conversations based on the language and we focus on conversations among the top five languages, excluding English. For every chosen language, we use an independent LLaMA-160M to serve as our draft model. All draft models share the same Vicuna-7B as the target model. The token acceptance rate, averaged over the latest 100 requests, reveals that OSD's enhances rates by 0.1 to 0.2, even with under 2K data points. Notably, Japanese was the easiest while Portuguese was the toughest.
-We also clustered English conversations by topics using the [fine-tuned distilled Bert model](https://huggingface.co/alimazhar-110/website_classification), focusing on the top five. As shown above, acceptance rates are above 0.6 across topics, with Social and Computer discussions peaking near 0.8.
+We also clustered English conversations by topics using the [fine-tuned distilled bert model]((https://huggingface.co/alimazhar-110/website_classification)), focusing on the top five. As shown above, acceptance rates are above 0.6 across topics, with Social and Computer discussions peaking near 0.8.
 
 ## Final words
 We invite you to refer to the [OSD paper](TODO) for comprehensive details! While we plan to release the code to replicate the results presented above, it's important to note that this code is not intended for use in a production serving system; rather, it serves as a proof of concept for the idea. We are actively engaged in the development of a fully operational system, so please stay tuned for further updates!
