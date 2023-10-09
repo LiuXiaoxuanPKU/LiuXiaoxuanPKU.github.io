@@ -8,9 +8,9 @@ In the following section, we'll introduce speculative decoding, a technique desi
 ## Speculative decoding
 Specualtive decoding is first introduced by [this paper](https://arxiv.org/abs/2211.17192). Put simply, speculative decoding recognizes that some tokens are straightforward to generate, while others are more challenging. To address this, we can utilize a streamlined 'draft' model for the easier tokens and a more comprehensive 'target' model for the complex ones.
 Specifically, to ensure that speculative decoding produces identical output to the original generation method, the draft model proposes tokens which are then validated by the target model.
-<img src="spec1.png" alt="Example-1" width="480">
+<p align="center"><img src="spec1.png" alt="Example-1" width="480"></p>
 As shown in the picture above, the draft model proposes five tokens: `["I", "like", "cooking", "and", "traveling"]`. These are then forwarded to the target model for parallel verification. In this example, the third token, playing, was proposed inaccurately. As a result, only the first three tokens, `["I", "like", "playing"]`, are generated in this step.
-<img src="spec2.png" alt="Example-2" width="800">
+<p align="center"><img src="spec2.png" alt="Example-2" width="800"></p>
 For the second step, starting from the playing token, the draft model proposes a new set of tokens: `["piano", "and", "reading", "books"]`. Let's assume, fortunately, that all these tokens are accurately proposed and subsequently confirmed by the larger model. Additionally, the larger model produces an extra token, `<EOS>`, based on the last verified token `.`. The generation process concludes at this point since the end-of-string token (`<EOS>`) has been produced.
 
 ##### Why can speculative decoding reduce latency?
@@ -29,7 +29,7 @@ As illustrated in the figures above, for smaller values of $\alpha$, speculative
 3. **There are many spare FLOPs in the serving system** TODO
 
 Based on the observations above, we propose the online speculative decoding (OSD) algorithm:
-<img src="arch.png" alt="Architecture" width="800">
+<p align="center"><img src="arch.png" alt="Architecture" width="800"></p>
 For each prompt, the draft model suggests multiple tokens in a single step. The target model then verifies these tokens, accepting some and rejecting others. If the student proposes incorrect tokens, both the draft and target distributions are stored in a buffer. Once the buffer exceeds a specified threshold, the draft model is updated by calculating the loss between the draft and target distributions using various distance metrics.
 
 ## Experiments
@@ -42,11 +42,11 @@ In this experiment, we pick LLaMA-160M as the draft model and Vicuna-7B as the t
 
 **Distribution shift**
 In this experiment, we want to know how quickly can OSD adapt to distribution shift. As shown below, OSD's alpha value dips notably at distribution boundaries, especially around 2K, 4K, and 6K records. This is anticipated since the draft model initially struggles when faced with a new distribution. However, the alpha value rebounds quickly as OSD processes more data, highlighting its adaptability to shifting query distributions. 
-<img src="shift.png" alt="Distribution Shift" width="600">
+<p align="center"><img src="shift.png" alt="Distribution Shift" width="600"></p>
 We also compared our results to those from a static setting. To ensure the draft model wasn't just memorizing data, we chose samples distinct from the online evaluation data. These samples correspond to 30%, 50%, 70%, and 100% of each dataset's online evaluation volume, at 0.6K, 1K, 1.4K, and 2K quantities respectively. As depicted, upon an initial shift in query distribution, OSD's performance aligns with or slightly trails the distillation with 30% data. However, it quickly catches up, matching or even surpassing performances seen with 70% to 100% data access. This highlights OSD's ability to rival models fully exposed to the query distribution, even without intimate knowledge of the underlying query dynamics.
 
 **Arena dataset**
-<img src="arena_language.png" alt="Architecture" width="300"> <img src="arena_class.png" alt="Architecture" width="300">
+<p align="center"><img src="arena_language.png" alt="Architecture" width="300"> <img src="arena_class.png" alt="Architecture" width="300"></p>
  We evaluate OSD on real LMSYS-chat conversations that span 4 months.
 First, we categorize conversations based on the language and we focus on conversations among the top five languages, excluding English. For every chosen language, we use an independent LLaMA-160M to serve as our draft model. All draft models share the same Vicuna-7B as the target model. The token acceptance rate, averaged over the latest 100 requests, reveals that OSD's enhances rates by 0.1 to 0.2, even with under 2K data points. Notably, Japanese was the easiest while Portuguese was the toughest.
 We also clustered English conversations by topics using the [fine-tuned distilled Bert model](https://huggingface.co/alimazhar-110/website_classification), focusing on the top five. As shown above, acceptance rates are above 0.6 across topics, with Social and Computer discussions peaking near 0.8.
