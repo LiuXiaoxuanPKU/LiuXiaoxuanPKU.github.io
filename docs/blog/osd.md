@@ -8,9 +8,13 @@ In the following section, we'll introduce speculative decoding, a technique desi
 ## Speculative decoding
 Specualtive decoding is first introduced by [this paper](https://arxiv.org/abs/2211.17192). Put simply, speculative decoding recognizes that some tokens are straightforward to generate, while others are more challenging. To address this, we can utilize a streamlined 'draft' model for the easier tokens and a more comprehensive 'target' model for the complex ones.
 Specifically, to ensure that speculative decoding produces identical output to the original generation method, the draft model proposes tokens which are then validated by the target model.
+
 <p align="center"><img src="spec1.png" alt="Example-1" width="480"></p>
+
 As shown in the picture above, the draft model proposes five tokens: `["I", "like", "cooking", "and", "traveling"]`. These are then forwarded to the target model for parallel verification. In this example, the third token, playing, was proposed inaccurately. As a result, only the first three tokens, `["I", "like", "playing"]`, are generated in this step.
+
 <p align="center"><img src="spec2.png" alt="Example-2" width="800"></p>
+
 For the second step, starting from the playing token, the draft model proposes a new set of tokens: `["piano", "and", "reading", "books"]`. Let's assume, fortunately, that all these tokens are accurately proposed and subsequently confirmed by the larger model. Additionally, the larger model produces an extra token, `<EOS>`, based on the last verified token `.`. The generation process concludes at this point since the end-of-string token (`<EOS>`) has been produced.
 
 ##### Why can speculative decoding reduce latency?
@@ -24,7 +28,7 @@ Based on the original speculative decoding, we have several interesting observat
 </p>
 
 1. **Propose accuracy is important** The draft model must approximate the target model sufficiently to achieve a reduction in latency. We use the symbol $\alpha$ to represent the proposed accuracy, defined as the expected token acceptance rate. For instance, if the token acceptance rate is 0.7, it signifies that, on average, 70% of tokens proposed by the draft model will be accepted by the target model.
-As illustrated in the figures above, for smaller values of $\alpha$, speculative decoding can even lead to performance degradation, as indicated by a speedup factor less than 1, especially when the draft model is of considerable size. Furthermore, the relationship between speedup and $\alpha$ exhibits a superlinear behavior; doubling the acceptance rate can result in a speedup exceeding 2$\times$.
+As illustrated in the figures above, for smaller values of $\alpha$, speculative decoding can even lead to performance degradation, as indicated by a speedup factor less than 1, especially when the draft model is of considerable size. Furthermore, the relationship between speedup and $\alpha$ exhibits a superlinear behavior; doubling the acceptance rate can result in a speedup exceeding 2x.
 2. **The draft model knows the correct answer** The process of speculative decoding inherently detects inaccuracies in the smaller draft language model (LLM) and provides correct solutions for these inaccuracies. In the specific example provided above, we can pinpoint the occurrence of a proposal error when the `cooking` token is suggested, whereas the correct token should be `playing`. Additionally, we have access to the probability distribution associated with these two tokens. This essentially means that we gain valuable insights into the areas and strategies for refining the draft model, all without incurring any additional cost to get the label. 
 3. **There are many spare FLOPs in the serving system** TODO
 
