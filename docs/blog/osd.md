@@ -50,7 +50,7 @@ For each prompt, the draft model suggests multiple tokens in a single step. The 
 
 In this experiment, we pick [LLaMA-160M](https://huggingface.co/JackFram/llama-160m) as the draft model and [Vicuna-7B](https://huggingface.co/lmsys/vicuna-7b-v1.3) as the target model. In the beginning, online speculative decoding yields a lower token acceptance rate in comparison to the offline distilled model. Nevertheless, these acceptance rates rise swiftly as the draft model is exposed to more data. We also annotate the token acceptance rate from the offline setting to highlight the potential peak performance that the online serving system could reach.
 <p align="center">
-<img src="legend_figure1.png" alt="Online Learning" width="600">
+<img src="legend_figure1.png" alt="Online Learning" width="600"><br>
 <img src="online.png" alt="Online Learning" width="300"></p>
 <p align="center">The x-axis represents the number of records that OSD has processed. Alpha is averaged over the most recent 50 records.</p>
 
