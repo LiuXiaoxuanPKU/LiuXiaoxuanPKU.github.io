@@ -9,8 +9,6 @@ My previous work looks into memory optimization for machine learning systems, qu
 ### Publication and Manuscripts
 - **[Online Speculative Decoding](https://arxiv.org/abs/2310.07177)**, **arxiv** \
 **Xiaoxuan Liu**, Lanxiang Hu, Peter Bailis, Ion Stoica, Zhijie Deng, Alvin Cheung, Hao Zhang
-- **[QFT: Quantized Full-parameter Tuning of LLMs with Affordable Resources](https://arxiv.org/abs/2310.07147)**, **arxiv** \
-Zhikai Li, **Xiaoxuan Liu**, Banghua Zhu, Zhen Dong, Qingyi Gu, Kurt Keutzer
 - **[Leveraging Application Data Constraints to Optimize Database-Backed Web Applications](https://arxiv.org/abs/2205.02954)**, **VLDB 2023** [[code](https://github.com/LiuXiaoxuanPKU/ConstrOpt)] \
   **Xiaoxuan Liu**, Shuxian Wang, Mengzhu Sun, Sicheng Pan, Ge Li, Siddharth Jha, Cong Yan, Junwen Yang, Shan Lu, Alvin Cheung.
 - **[GACT: Activation Compressed Training for Generic Network Architectures](https://arxiv.org/abs/2206.11357)**, **ICML 2022**. [[code](https://github.com/LiuXiaoxuanPKU/GACT-ICML)][[slides](https://github.com/LiuXiaoxuanPKU/LiuXiaoxuanPKU.github.io/blob/master/docs/slides/ICML2022.pdf)][[talk](https://slideslive.com/38983883/gact-activation-compressed-training-for-generic-network-architectures)] \
@@ -21,12 +19,7 @@ Zhikai Li, **Xiaoxuan Liu**, Banghua Zhu, Zhen Dong, Qingyi Gu, Kurt Keutzer
 Alvin Cheung, Maaz Bin Safeer Ahmad, Brandon Haynes, Chanwut Kittivorawong, Shadaj Laddad, **Xiaoxuan Liu**, Chenglong Wang, Cong Yan
 
 ### Others
-- **[Joint Optimization of Gradient Checkpointing and Tensor Parallelism for Model Training](https://github.com/LiuXiaoxuanPKU/LiuXiaoxuanPKU.github.io/blob/master/docs/blog/kiwi.pdf)**\
-  **Xiaoxuan Liu**, Siddharth Jha, Ion Stoica, Alvin Cheung.
+- **[QFT: Quantized Full-parameter Tuning of LLMs with Affordable Resources](https://arxiv.org/abs/2310.07147)**, **arxiv** \
+Zhikai Li, **Xiaoxuan Liu**, Banghua Zhu, Zhen Dong, Qingyi Gu, Kurt Keutzer
 - **[An Evaluation of Memory Optimization Methods for Training Neural Networks](https://arxiv.org/abs/2303.14633)**, **arxiv** \
   **Xiaoxuan Liu**, Siddharth Jha, Alvin Cheung.
-
-
-### Undergrads I work with (also learn from!)
-- [Sid Jha](https://sidjha1.github.io/)
-- [Philip C.Y. Zhu](https://cyzhu.dev/) (now Master at CMU)
