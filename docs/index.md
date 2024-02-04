@@ -3,7 +3,7 @@
 Hi, I am Lily (Xiaoxuan) Liu. I am a CS PhD student from UC Berkeley. I am affiliated with [Sky Lab](https://sky.cs.berkeley.edu/people/) (formerly known as RISE/AMP Lab). I am fortunately advised by Professor [Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/). I also work with Professor [Ion Stoica](http://people.eecs.berkeley.edu/~istoica/). I got my master's from CMU, working with amazing [Andy](http://www.cs.cmu.edu/~pavlo/) and [Huanchen](http://www.cs.cmu.edu/~huanche1/). I did my undergraduate in PKU. 
 
 ### Research Interest
-I am broadly interested in database and machine learning system research. Concretely, I am interested in building fast, cost-efficient LLM systems. I am fortunate to learn from colleges and part of the [vllm](https://github.com/vllm-project/vllm) team.
+I am broadly interested in database and machine learning system research. Concretely, I am interested in building fast, cost-efficient LLM systems. I am fortunate to learn from my colleagues and part of the [vllm](https://github.com/vllm-project/vllm) team.
 
 ### Selected Publication and Manuscripts
 - **[Online Speculative Decoding](https://arxiv.org/abs/2310.07177)**, **arxiv** \
