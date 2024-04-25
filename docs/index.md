@@ -1,12 +1,14 @@
 ## About Me
 
-Hi, I am Lily (Xiaoxuan) Liu. I am a CS PhD student from UC Berkeley. I am affiliated with [Sky Lab](https://sky.cs.berkeley.edu/people/) (formerly known as RISE/AMP Lab). I am fortunately advised by Professor [Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/). I also work with Professor [Ion Stoica](http://people.eecs.berkeley.edu/~istoica/). I got my master's from CMU, working with amazing [Andy](http://www.cs.cmu.edu/~pavlo/) and [Huanchen](http://www.cs.cmu.edu/~huanche1/). I did my undergraduate in PKU. 
+Hi, I am Lily (Xiaoxuan) Liu. I am a CS PhD student from UC Berkeley. I am affiliated with [Sky Lab](https://sky.cs.berkeley.edu/people/) (formerly known as RISE/AMP Lab). I am fortunately advised by Professor [Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/) and Professor [Ion Stoica](http://people.eecs.berkeley.edu/~istoica/). I got my master's from CMU, working with amazing [Andy](http://www.cs.cmu.edu/~pavlo/) and [Huanchen](http://www.cs.cmu.edu/~huanche1/). I did my undergraduate in PKU. 
 
 ### Research Interest
 I am broadly interested in database and machine learning system research. Concretely, I am interested in building fast, cost-efficient LLM systems. I am fortunate to learn from my colleagues and become part of the [vllm](https://github.com/vllm-project/vllm) team.
 
 ### Selected Publication and Manuscripts
-- **[Online Speculative Decoding](https://arxiv.org/abs/2310.07177)**, **arxiv** \
+- **[Mélange: Cost Efficient Large Language Model Serving by Exploiting GPU Heterogeneity](https://arxiv.org/abs/2404.14527)**, **arxiv**, 2024 \
+  Tyler Griggs*, **Xiaoxuan Liu***, Jiaxiang Yu, Doyoung Kim, Wei-Lin Chiang, Alvin Cheung, Ion Stoica
+- **[Online Speculative Decoding](https://arxiv.org/abs/2310.07177)**, **arxiv**, 2024 \
 **Xiaoxuan Liu**, Lanxiang Hu, Peter Bailis, Ion Stoica, Zhijie Deng, Alvin Cheung, Hao Zhang
 - **[Leveraging Application Data Constraints to Optimize Database-Backed Web Applications](https://arxiv.org/abs/2205.02954)**, **VLDB 2023** [[code](https://github.com/LiuXiaoxuanPKU/ConstrOpt)] \
   **Xiaoxuan Liu**, Shuxian Wang, Mengzhu Sun, Sicheng Pan, Ge Li, Siddharth Jha, Cong Yan, Junwen Yang, Shan Lu, Alvin Cheung.
