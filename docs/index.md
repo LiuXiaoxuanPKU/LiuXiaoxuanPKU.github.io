@@ -9,7 +9,7 @@ I am broadly interested in database and machine learning system research. Concre
 - **[Mélange: Cost Efficient Large Language Model Serving by Exploiting GPU Heterogeneity](https://arxiv.org/abs/2404.14527)**, **arxiv**, 2024 \
   Tyler Griggs<sup>*</sup>, **Xiaoxuan Liu**<sup>*</sup>, Jiaxiang Yu, Doyoung Kim, Wei-Lin Chiang, Alvin Cheung, Ion Stoica
 - **[Online Speculative Decoding](https://arxiv.org/abs/2310.07177)**, **arxiv**, 2024 \
-**Xiaoxuan Liu**, Lanxiang Hu, Peter Bailis, Ion Stoica, Zhijie Deng, Alvin Cheung, Hao Zhang
+**Xiaoxuan Liu**, Lanxiang Hu, Peter Bailis, Alvin Cheung, Zhijie Deng, Ion Stoica, Hao Zhang
 - **[Leveraging Application Data Constraints to Optimize Database-Backed Web Applications](https://arxiv.org/abs/2205.02954)**, **VLDB 2023** [[code](https://github.com/LiuXiaoxuanPKU/ConstrOpt)] \
   **Xiaoxuan Liu**, Shuxian Wang, Mengzhu Sun, Sicheng Pan, Ge Li, Siddharth Jha, Cong Yan, Junwen Yang, Shan Lu, Alvin Cheung.
 - **[GACT: Activation Compressed Training for Generic Network Architectures](https://arxiv.org/abs/2206.11357)**, **ICML 2022**. [[code](https://github.com/LiuXiaoxuanPKU/GACT-ICML)][[slides](https://github.com/LiuXiaoxuanPKU/LiuXiaoxuanPKU.github.io/blob/master/docs/slides/ICML2022.pdf)][[talk](https://slideslive.com/38983883/gact-activation-compressed-training-for-generic-network-architectures)] \
