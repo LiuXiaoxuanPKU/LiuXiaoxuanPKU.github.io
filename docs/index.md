@@ -8,7 +8,7 @@ I am broadly interested in database and machine learning system research. Concre
 ### Selected Publication and Manuscripts
 - **[Mélange: Cost Efficient Large Language Model Serving by Exploiting GPU Heterogeneity](https://arxiv.org/abs/2404.14527)**, **arxiv**, 2024 \
   Tyler Griggs<sup>*</sup>, **Xiaoxuan Liu**<sup>*</sup>, Jiaxiang Yu, Doyoung Kim, Wei-Lin Chiang, Alvin Cheung, Ion Stoica
-- **[Online Speculative Decoding](https://arxiv.org/abs/2310.07177)**, **arxiv**, 2024 \
+- **[Online Speculative Decoding](https://arxiv.org/abs/2310.07177)**, **ICML 2024** \
 **Xiaoxuan Liu**, Lanxiang Hu, Peter Bailis, Alvin Cheung, Zhijie Deng, Ion Stoica, Hao Zhang
 - **[Leveraging Application Data Constraints to Optimize Database-Backed Web Applications](https://arxiv.org/abs/2205.02954)**, **VLDB 2023** [[code](https://github.com/LiuXiaoxuanPKU/ConstrOpt)] \
   **Xiaoxuan Liu**, Shuxian Wang, Mengzhu Sun, Sicheng Pan, Ge Li, Siddharth Jha, Cong Yan, Junwen Yang, Shan Lu, Alvin Cheung.
