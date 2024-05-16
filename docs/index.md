@@ -16,3 +16,7 @@ I am broadly interested in database and machine learning system research. Concre
   **Xiaoxuan Liu**, Lianmin Zheng, Dequan Wang, Yukuo Cen, Weize Chen, Xu Han, Jianfei Chen, Zhiyuan Liu, Jie Tang, Joey Gonzalez, Michael Mahoney, Alvin Cheung.
 - **[Order-Preserving Key Compression for In-Memory Search Trees](https://arxiv.org/abs/2003.02391)**, **SIGMOD 2020**. [[code](https://github.com/efficient/HOPE)][[slides](http://people.iiis.tsinghua.edu.cn/~huanchen/slides/hope-sigmod20.pdf)][[talk](https://www.youtube.com/watch?v=9OzjeSbWHcQ)]\
   Huanchen Zhang, **Xiaoxuan Liu**, David Anderson, Michael Kaminsky, Kimberly Keeton, Andrew Pavlo.
+
+#### Papers that ~~dies silently~~ I do randomly
+- **[An Evaluation of Memory Optimization Methods for Training Neural Networks](https://arxiv.org/abs/2303.14633)**, **arxiv**, 2023 \
+  **Xiaoxuan Liu**, Siddharth Jha, Alvin Cheung
