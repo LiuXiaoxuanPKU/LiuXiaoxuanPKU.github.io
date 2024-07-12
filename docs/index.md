@@ -6,7 +6,7 @@ Hi, I am Lily (Xiaoxuan) Liu. I am a CS PhD student from UC Berkeley. I am affil
 I am broadly interested in database and machine learning system research. Concretely, I am interested in building fast, cost-efficient LLM systems. I am fortunate to learn from my colleagues and become part of the [vllm](https://github.com/vllm-project/vllm) team.
 
 ### Selected Publication and Manuscripts
-- **[Optimizing Speculative Decoding for Serving Large Language Models Using Goodput](https://arxiv.org/abs/2406.14066))**, **arxiv**, 2024. \
+- **[Optimizing Speculative Decoding for Serving Large Language Models Using Goodput](https://arxiv.org/abs/2406.14066)**, **arxiv**, 2024. \
 **Xiaoxuan Liu**, Cade Daniel, Langxiang Hu, Woosuk Kwon, Zhuohan Li, Xiangxi Mo, Alvin Cheung, Zhijie Deng, Ion Stoica, Hao Zhang
 - **[Mélange: Cost Efficient Large Language Model Serving by Exploiting GPU Heterogeneity](https://arxiv.org/abs/2404.14527)**, **arxiv**, 2024. [[code](https://github.com/tyler-griggs/melange-release)] \
   Tyler Griggs<sup>*</sup>, **Xiaoxuan Liu**<sup>*</sup>, Jiaxiang Yu, Doyoung Kim, Wei-Lin Chiang, Alvin Cheung, Ion Stoica
