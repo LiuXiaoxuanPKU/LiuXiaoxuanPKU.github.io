@@ -4,8 +4,9 @@ Hi, I am **Lily (Xiaoxuan) Liu**. Currently, I am a member of technical staff at
 
 **Research Interest**: I am broadly interested in building efficient machine learning systems. I am fortunate to learn from my colleagues and become part of the [vllm](https://github.com/vllm-project/vllm) team.
 
-### Blogs
+### Blogs I Wrote Occasionally
 - **[Online Speculative Decoding](/blog/osd)**
+- **[vLLM Speculative Decoding](https://blog.vllm.ai/2024/10/17/spec-decode.html)**
 
 ### Selected Publication and Manuscripts
 - **[Optimizing Speculative Decoding for Serving Large Language Models Using Goodput](https://arxiv.org/abs/2406.14066)**, **arxiv**, 2024. \
