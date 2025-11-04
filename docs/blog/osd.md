@@ -1,3 +1,9 @@
+---
+layout: blog_no_header
+title: Online Speculative Decoding
+permalink: /blog/osd
+---
+
 LLMs (Language Models) are at the forefront of revolutionizing contemporary applications and a growing number of companies are seeking to deploy LLMs. Nonetheless, a pivotal factor that demands careful attention during deployment is latency.
 Current generation systems exhibit high latency, much of which can be attributed to the auto-regressive nature of the generation process. This necessitates generating tokens sequentially, where each forward pass of the model produces just one token. 
 
