@@ -2,11 +2,10 @@
 
 Hi, I am **Lily (Xiaoxuan) Liu**. Currently, I am a member of technical staff at OpenAI. Before that, I am a CS PhD student from UC Berkeley. I am affiliated with [Sky Lab](https://sky.cs.berkeley.edu/people/) (formerly known as RISE/AMP Lab). I am fortunately advised by Professor [Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/) and Professor [Ion Stoica](http://people.eecs.berkeley.edu/~istoica/). I got my master's from CMU, working with amazing [Andy](http://www.cs.cmu.edu/~pavlo/) and [Huanchen](http://www.cs.cmu.edu/~huanche1/). I did my undergraduate in PKU. 
 
-### Research Interest
-I am broadly interested in building efficient machine learning systems. I am fortunate to learn from my colleagues and become part of the [vllm](https://github.com/vllm-project/vllm) team.
+**Research Interest**: I am broadly interested in building efficient machine learning systems. I am fortunate to learn from my colleagues and become part of the [vllm](https://github.com/vllm-project/vllm) team.
 
 ### Blogs
-- [Online Speculative Decoding](/blog/osd)
+- **[Online Speculative Decoding]**(/blog/osd)
 
 ### Selected Publication and Manuscripts
 - **[Optimizing Speculative Decoding for Serving Large Language Models Using Goodput](https://arxiv.org/abs/2406.14066)**, **arxiv**, 2024. \
