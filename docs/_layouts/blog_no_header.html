@@ -7,8 +7,20 @@
 
     {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <style>
+      body.no-header-page header { display: none; }
+      body.no-header-page section {
+        float: none;
+        width: 100%;
+      }
+      body.no-header-page footer {
+        float: none;
+        width: 100%;
+        clear: both;
+      }
+    </style>
   </head>
-  <body>
+  <body class="no-header-page">
     <div class="wrapper">
       <section>
         {{ content }}
