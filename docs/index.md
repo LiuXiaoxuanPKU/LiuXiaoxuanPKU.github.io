@@ -8,6 +8,8 @@ Hi, I’m **Lily (Xiaoxuan) Liu**. I’m currently a Member of Technical Staff a
 - **[vLLM Speculative Decoding](https://blog.vllm.ai/2024/10/17/spec-decode.html)**
 
 ### Selected Publication and Manuscripts
+- **[Speculative Decoding: Performance or Illusion?](https://arxiv.org/pdf/2601.11580)**, **MLsys 2026**. \
+**Xiaoxuan Liu**<sup>*</sup>, Jiaxiang Yu<sup>*</sup>, Jongseok Park, Ion Stoica, Alvin Cheung
 - **[Optimizing Speculative Decoding for Serving Large Language Models Using Goodput](https://arxiv.org/abs/2406.14066)**, **arxiv**, 2024. \
 **Xiaoxuan Liu**, Cade Daniel, Langxiang Hu, Woosuk Kwon, Zhuohan Li, Xiangxi Mo, Alvin Cheung, Zhijie Deng, Ion Stoica, Hao Zhang
 - **[Mélange: Cost Efficient Large Language Model Serving by Exploiting GPU Heterogeneity](https://arxiv.org/abs/2404.14527)**, **arxiv**, 2024. [[code](https://github.com/tyler-griggs/melange-release)] \
