@@ -1,7 +1,7 @@
 ## About Me
-Hi, I’m **Lily (Xiaoxuan) Liu**. I’m currently a Member of Technical Staff at OpenAI. Before joining OpenAI, I completed my PhD in Computer Science at UC Berkeley, where I was part of [Sky Lab](https://sky.cs.berkeley.edu/people/) (formerly RISE/AMP Lab) and was fortunate to be advised by Professor [Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/) and Professor [Ion Stoica](http://people.eecs.berkeley.edu/~istoica/). I received my undergraduate degree from Peking University and my master’s degree from Carnegie Mellon University, where I had the pleasure of working with [Andy](http://www.cs.cmu.edu/~pavlo/) and [Huanchen](http://www.cs.cmu.edu/~huanche1/).
+Hi, I’m **Lily (Xiaoxuan) Liu**. I’m currently a researcher at OpenAI. Before joining OpenAI, I completed my PhD in Computer Science at UC Berkeley, where I was part of [Sky Lab](https://sky.cs.berkeley.edu/people/) (formerly RISE/AMP Lab) and was fortunate to be advised by Professor [Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/) and Professor [Ion Stoica](http://people.eecs.berkeley.edu/~istoica/). I received my undergraduate degree from Peking University and my master’s degree from Carnegie Mellon University, where I had the pleasure of working with [Andy](http://www.cs.cmu.edu/~pavlo/) and [Huanchen](http://www.cs.cmu.edu/~huanche1/).
 
-**Research Interest**: I am broadly interested in building efficient machine learning systems. I am fortunate to learn from my colleagues and become part of the [vllm](https://github.com/vllm-project/vllm) team.
+**Research Interest**: Understand and build AGI :). During my PhD, I built system and was part of the [vllm](https://github.com/vllm-project/vllm) team.
 
 ### Blogs I Wrote Occasionally
 - **[Online Speculative Decoding](/blog/osd)**
