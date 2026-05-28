@@ -1,29 +1,16 @@
 ## About Me
 Hi, I’m **Lily (Xiaoxuan) Liu**. I’m currently a researcher at OpenAI. Before joining OpenAI, I completed my PhD in Computer Science at UC Berkeley, where I was part of [Sky Lab](https://sky.cs.berkeley.edu/people/) (formerly RISE/AMP Lab) and was fortunate to be advised by Professor [Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/) and Professor [Ion Stoica](http://people.eecs.berkeley.edu/~istoica/). I received my undergraduate degree from Peking University and my master’s degree from Carnegie Mellon University, where I had the pleasure of working with [Andy](http://www.cs.cmu.edu/~pavlo/) and [Huanchen](http://www.cs.cmu.edu/~huanche1/).
 
-**Research Interest**: Understand and build AGI :). During my PhD, I built system and was part of the [vllm](https://github.com/vllm-project/vllm) team.
+**Research Interest**: My research is driven by curiosity: I am interested in understanding and building AGI :). During my PhD, I built systems for efficient LLM inference and was part of the [vLLM](https://github.com/vllm-project/vllm) team.
 
-### Blogs I Wrote Occasionally
+### Blogs
 - **[Online Speculative Decoding](/blog/osd)**
 - **[vLLM Speculative Decoding](https://blog.vllm.ai/2024/10/17/spec-decode.html)**
 
-### Selected Publication and Manuscripts
-- **[Speculative Decoding: Performance or Illusion?](https://arxiv.org/pdf/2601.11580)**, **MLsys 2026**. \
+### Selected Manuscripts ([full list](https://scholar.google.com/citations?user=MtqfTRYAAAAJ&hl=en))
+- **[Speculative Decoding: Performance or Illusion?](https://arxiv.org/pdf/2601.11580)**, **MLsys 2026**. <span style="color: red;"><strong>Best Research Paper Honorable Mention.</strong></span>\
 **Xiaoxuan Liu<sup>*</sup>**, Jiaxiang Yu<sup>*</sup>, Jongseok Park, Ion Stoica, Alvin Cheung
-- **[Optimizing Speculative Decoding for Serving Large Language Models Using Goodput](https://arxiv.org/abs/2406.14066)**, **arxiv**, 2024. \
-**Xiaoxuan Liu**, Cade Daniel, Langxiang Hu, Woosuk Kwon, Zhuohan Li, Xiangxi Mo, Alvin Cheung, Zhijie Deng, Ion Stoica, Hao Zhang
-- **[Mélange: Cost Efficient Large Language Model Serving by Exploiting GPU Heterogeneity](https://arxiv.org/abs/2404.14527)**, **arxiv**, 2024. [[code](https://github.com/tyler-griggs/melange-release)] \
-  Tyler Griggs<sup>*</sup>, **Xiaoxuan Liu**<sup>*</sup>, Jiaxiang Yu, Doyoung Kim, Wei-Lin Chiang, Alvin Cheung, Ion Stoica
+- **[TurboSpec: Closed-loop Speculation Control System for Optimizing LLM Serving Goodput](https://arxiv.org/abs/2406.14066)**, **arxiv**, 2024. \
+**Xiaoxuan Liu**, Jongseok Park, Langxiang Hu, Woosuk Kwon, Zhuohan Li, Chen Zhang, Kuntai Du, Xiangxi Mo, Kaichao You, Alvin Cheung, Zhijie Deng, Ion Stoica, Hao Zhang
 - **[Online Speculative Decoding](https://arxiv.org/abs/2310.07177)**, **ICML 2024**. [[code](https://github.com/LiuXiaoxuanPKU/OSD)][[blog](https://osdllm.github.io/)] \
 **Xiaoxuan Liu**, Lanxiang Hu, Peter Bailis, Alvin Cheung, Zhijie Deng, Ion Stoica, Hao Zhang
-- **[Leveraging Application Data Constraints to Optimize Database-Backed Web Applications](https://arxiv.org/abs/2205.02954)**, **VLDB 2023**. [[code](https://github.com/LiuXiaoxuanPKU/ConstrOpt)] \
-  **Xiaoxuan Liu**, Shuxian Wang, Mengzhu Sun, Sicheng Pan, Ge Li, Siddharth Jha, Cong Yan, Junwen Yang, Shan Lu, Alvin Cheung.
-- **[GACT: Activation Compressed Training for Generic Network Architectures](https://arxiv.org/abs/2206.11357)**, **ICML 2022**. [[code](https://github.com/LiuXiaoxuanPKU/GACT-ICML)][[slides](https://github.com/LiuXiaoxuanPKU/LiuXiaoxuanPKU.github.io/blob/master/docs/slides/ICML2022.pdf)][[talk](https://slideslive.com/38983883/gact-activation-compressed-training-for-generic-network-architectures)] \
-  **Xiaoxuan Liu**, Lianmin Zheng, Dequan Wang, Yukuo Cen, Weize Chen, Xu Han, Jianfei Chen, Zhiyuan Liu, Jie Tang, Joey Gonzalez, Michael Mahoney, Alvin Cheung.
-- **[Order-Preserving Key Compression for In-Memory Search Trees](https://arxiv.org/abs/2003.02391)**, **SIGMOD 2020**. [[code](https://github.com/efficient/HOPE)][[slides](http://people.iiis.tsinghua.edu.cn/~huanchen/slides/hope-sigmod20.pdf)][[talk](https://www.youtube.com/watch?v=9OzjeSbWHcQ)]\
-  Huanchen Zhang, **Xiaoxuan Liu**, David Anderson, Michael Kaminsky, Kimberly Keeton, Andrew Pavlo.
-
-#### Papers that ~~die silently~~ I do randomly
-- **[An Evaluation of Memory Optimization Methods for Training Neural Networks](https://arxiv.org/abs/2303.14633)**, **arxiv**, 2023 \
-  **Xiaoxuan Liu**, Siddharth Jha, Alvin Cheung
-  
