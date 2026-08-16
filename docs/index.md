@@ -1,11 +1,9 @@
 ## About Me
 Hi, I’m **Lily (Xiaoxuan) Liu**. I’m currently a researcher at OpenAI. Before joining OpenAI, I completed my PhD in Computer Science at UC Berkeley, where I was part of [Sky Lab](https://sky.cs.berkeley.edu/people/) (formerly RISE/AMP Lab) and was fortunate to be advised by Professor [Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/) and Professor [Ion Stoica](http://people.eecs.berkeley.edu/~istoica/). I received my undergraduate degree from Peking University and my master’s degree from Carnegie Mellon University, where I had the pleasure of working with [Andy](http://www.cs.cmu.edu/~pavlo/) and [Huanchen](http://www.cs.cmu.edu/~huanche1/).
 
-**Research Interest**: My research is driven by curiosity. I’m currently working on pretraining, where the process of training models remains both mysterious and endlessly fascinating. During my PhD, I built systems for efficient LLM inference and was part of the [vLLM](https://github.com/vllm-project/vllm) team.
+**Research Interest**: My research is driven by curiosity. I currently work on **pretraining algorithms**, where the process of training models remains both mysterious and endlessly fascinating. Previously, I worked on inference for [gpt-oss](https://openai.com/index/introducing-gpt-oss/) and post-training infra for [gpt-5](https://openai.com/index/introducing-gpt-5/). During my PhD, I built systems for efficient LLM inference and contributed to [vLLM](https://github.com/vllm-project/vllm) as a member of the team.
 
-### Experience
-- [gpt-oss](https://openai.com/index/introducing-gpt-oss/): inference.
-- [gpt-5](https://openai.com/index/introducing-gpt-5/): post-training infra.
+
 
 ### Selected Manuscripts ([full list](https://scholar.google.com/citations?user=MtqfTRYAAAAJ&hl=en))
 - **[Speculative Decoding: Performance or Illusion?](https://arxiv.org/pdf/2601.11580)**, **MLsys 2026**. <span style="color: red;"><strong>Best Research Paper Honorable Mention.</strong></span>\
