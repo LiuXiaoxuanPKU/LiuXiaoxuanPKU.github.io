@@ -3,6 +3,9 @@ Hi, I’m **Lily (Xiaoxuan) Liu**. I’m currently a researcher at OpenAI. Befor
 
 **Research Interest**: My research is driven by curiosity. I’m currently working on pretraining, where the process of training models remains both mysterious and endlessly fascinating. During my PhD, I built systems for efficient LLM inference and was part of the [vLLM](https://github.com/vllm-project/vllm) team.
 
+### Experience
+- [gpt-oss](https://openai.com/index/introducing-gpt-oss/): inference.
+- [gpt-5](https://openai.com/index/introducing-gpt-5/): post-training infra.
 
 ### Selected Manuscripts ([full list](https://scholar.google.com/citations?user=MtqfTRYAAAAJ&hl=en))
 - **[Speculative Decoding: Performance or Illusion?](https://arxiv.org/pdf/2601.11580)**, **MLsys 2026**. <span style="color: red;"><strong>Best Research Paper Honorable Mention.</strong></span>\
